@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FF7</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: url(./bg-full.jpg) no-repeat;
+      background-size: cover;
+      backdrop-filter: blur(2px);
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #container {
+      display: flex;
+      width: 1515px;
+      height: 755px;
+    }
+
+    #left-side {
+      display: flex;
+      width: 50%;
+      height: 100%;
+      background: url(./main.jpg) no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .bg-filter {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    #left-side img {
+      display: flex;
+      width: 220px;
+      height: 320px;
+    }
+
+    #container #left-side p {
+      width: 400px;
+      height: 120px;
+      text-align: center;
+    }
+
+    #right-side {
+      display: flex;
+      flex-wrap: wrap;
+      width: 50%;
+    }
+
+    #right-side .top {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: space-around;
+      width: 100%;
+      height: 50%;
+      padding-left: 30px;
+      color: #000;
+      background-color: #aaaaaa;
+      background-image: url(./cloud.png);
+      background-size: 300px 340px;
+      background-repeat: no-repeat;
+      background-position: right 10px bottom;
+    }
+
+    .top p {
+      width: 370px;
+      height: 150px;
+    }
+
+    .bottom p {
+      width: 370px;
+      height: 150px;
+    }
+
+    #right-side .bottom {
+      display: flex;
+      width: 100%;
+      height: 50%;
+      color: #fff;
+      padding-left: 300px;
+      flex-direction: column;
+      justify-content: center;
+      background-color: #000;
+      background-image: url(./tifa.png);
+      background-size: 300px 340px;
+      background-repeat: no-repeat;
+      background-position: left 10px bottom;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <div id="left-side">
+      <div class="bg-filter">
+        <img src="./ps4-ff7.png">
+        <h1>AVAILABLE NOW</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque sapiente necessitatibus delectus maxime.
+          Doloremque delectus saepe deserunt quibusdam labore molestiae.</p>
+      </div>
+    </div>
+    <div id="right-side">
+      <div class="top">
+        <h1>Cloud</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, mollitia? Commodi rem quas nobis atque
+          reprehenderit unde vitae quisquam accusamus?
+        </p>
+      </div>
+      <div class="bottom">
+        <h1>Tifa</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ea quo ipsam odit. Quam tempora laborum, odio
+          optio, vero nihil quidem eveniet rem iste maiores tenetur similique? Repudiandae, unde necessitatibus?</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
